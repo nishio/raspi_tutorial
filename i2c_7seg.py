@@ -18,6 +18,7 @@ numeric_data = [
 
 
 def initialize():
+    global bus
     data = [0x21, 0x81, 0xEF]
     wait = [10, 10, 10]  # milliseconds
 
